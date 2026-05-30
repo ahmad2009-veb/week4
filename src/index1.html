@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+    
+</head>
+<body>
+<header class="w-full h-[80px] bg-white border-b border-[#e2e8f0] px-[20px] flex items-center justify-between">
+  
+  <div class="flex items-center gap-[30px] flex-1">
+    <img src="..//Logo (12).png" alt="logoipsum" class="w-[150px] h-[32px] object-contain" />
+    
+    <div class="relative w-[380px] hidden md:block">
+      <input 
+        type="text" 
+        placeholder="Search bar" 
+        class="w-full h-[44px] pl-[16px] pr-[40px] border border-[#d1d5db] rounded-[8px] text-[15px] outline-none placeholder-[#9ca3af]" 
+      />
+      <img src="..//Search.png" alt="search" class="absolute right-[14px] top-[12px] w-[20px] h-[20px]" />
+    </div>
+  </div>
+
+  <div class="flex items-center gap-[24px]">
+    
+    <nav class="hidden lg:flex items-center gap-[24px]">
+      <button class="flex items-center gap-[6px] text-[#0f172a] text-[16px] font-medium">
+        
+        <img src="..//arrow_drop_down.png" alt="arrow" class="w-[12px] h-[12px]" />
+      </button>
+      <a href="index.html1">Category</a>
+    </nav>
+
+    <div class="hidden sm:flex items-center gap-[12px]">
+      <button class="w-[100px] h-[44px] border border-[#1e293b] rounded-[8px] text-[#1e293b] text-[16px] font-semibold">
+        Login
+      </button>
+      <button class="w-[110px] h-[44px] bg-[#f43f5e] rounded-[8px] text-white text-[16px] font-semibold">
+        Sign Up
+      </button>
+    </div>
+
+    <div class="flex items-center gap-[16px] sm:hidden">
+      <img src="Search.png" alt="search" class="w-[24px] h-[24px]" />
+      <button class="flex flex-col gap-[5px]">
+        <span class="w-[25px] h-[3px] bg-[#1e293b] rounded"></span>
+        <span class="w-[25px] h-[3px] bg-[#1e293b] rounded"></span>
+        <span class="w-[25px] h-[3px] bg-[#1e293b] rounded"></span>
+      </button>
+    </div>
+
+  </div>
+
+</header>
