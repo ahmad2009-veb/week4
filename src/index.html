@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="..//src/output.css">
+    <link rel="stylesheet" href="output.css">
 </head>
 <body>
 <header class="w-full h-[80px] bg-white border-b border-[#e2e8f0] px-[20px] flex items-center justify-between">
@@ -29,7 +29,7 @@
         Category
         <img src="..//arrow_drop_down.png" alt="arrow" class="w-[12px] h-[12px]" />
       </button>
-      <a href="#" class="text-[#0f172a] text-[16px] font-medium whitespace-nowrap">Become an Mentor</a>
+      <a href="#" class="text-[#0f172a] text-[16px] font-medium whitespace-nowrap">Become a Mentor</a>
     </nav>
 
     <div class="hidden sm:flex items-center gap-[12px]">
@@ -42,7 +42,7 @@
     </div>
 
     <div class="flex items-center gap-[16px] sm:hidden">
-      <img src="search-icon.png" alt="search" class="w-[24px] h-[24px]" />
+      <img src="Search.png" alt="search" class="w-[24px] h-[24px]" />
       <button class="flex flex-col gap-[5px]">
         <span class="w-[25px] h-[3px] bg-[#1e293b] rounded"></span>
         <span class="w-[25px] h-[3px] bg-[#1e293b] rounded"></span>
@@ -53,5 +53,76 @@
   </div>
 
 </header>
+
+<section class="w-full min-h-[600px] bg-[#03132c] text-white px-[20px] py-[60px] lg:py-[80px] flex flex-col lg:flex-row items-center justify-between gap-[40px]">
+  
+  <div class="w-full lg:w-[55%] flex flex-col gap-[24px]">
+    <h1 class="text-[36px] sm:text-[48px] lg:text-[56px] font-bold leading-[1.15] tracking-tight">
+      Find the Best <br class="hidden sm:inline" /> Courses and <br /> Amazing Mentor
+    </h1>
+    
+    <p class="text-[#94a3b8] text-[15px] sm:text-[16px] max-w-[540px] leading-relaxed">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
+    </p>
+
+    <div class="w-full max-w-[500px] h-[64px] bg-white rounded-[12px] p-[6px] flex items-center justify-between shadow-lg mt-[10px]">
+      <div class="flex items-center gap-[12px] pl-[12px] flex-1">
+        <img src="..//Search.png" alt="search" class="w-[20px] h-[20px] opacity-60" />
+        <input 
+          type="text" 
+          placeholder="Type in the course you want to learn" 
+          class="w-full bg-transparent text-[#0f172a] text-[15px] outline-none placeholder-[#9ca3af]" 
+        />
+      </div>
+      <button class="h-full px-[28px] bg-[#f43f5e] rounded-[8px] text-white text-[16px] font-semibold transition-all hover:bg-[#e11d48]">
+        Search
+      </button>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-[32px] gap-y-[16px] mt-[20px]">
+      <div class="flex items-center gap-[8px]">
+        <img src="..//access_alarm.png" alt="icon" class="w-[20px] h-[20px]" />
+        <span class="text-[14px] sm:text-[15px] font-medium text-white">Life Time Access</span>
+      </div>
+      <div class="flex items-center gap-[8px]">
+        <img src="..//user.png" alt="icon" class="w-[20px] h-[20px]" />
+        <span class="text-[14px] sm:text-[15px] font-medium text-white">Expert Mentor</span>
+      </div>
+      <div class="flex items-center gap-[8px]">
+        <img src="..//video_library.png" alt="icon" class="w-[20px] h-[20px]" />
+        <span class="text-[14px] sm:text-[15px] font-medium text-white">100K+ Courses</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full lg:w-[42%] max-w-[520px] aspect-[1/1.1] bg-[#e2e8f0] rounded-[16px] relative overflow-hidden flex items-center justify-center">
+    
+    <div class="absolute top-[10%] left-[10%] w-[50px] h-[50px] bg-[#3b82f6] rounded-[12px] rotate-[-15deg] flex items-center justify-center shadow-md">
+      <img src="..//Bell Icon.png" alt="bell" class="w-[24px] h-[24px] text-white" />
+    </div>
+
+    <div class="absolute bottom-[30%] left-[8%] w-[50px] h-[50px] bg-[#0f172a] rounded-[12px] rotate-[15deg] flex items-center justify-center shadow-md">
+      <img src="..//Verification Icon.png" alt="heart" class="w-[24px] h-[24px] text-white" />
+    </div>
+
+    <div class="absolute right-[5%] top-[45%] w-[50px] h-[50px] bg-[#f43f5e] rounded-[12px] rotate-[20deg] flex items-center justify-center shadow-md">
+      <img src="..//Love Icon.png" alt="check" class="w-[24px] h-[24px] text-white" />
+    </div>
+
+    <div class="absolute bottom-[6%] right-[6%] bg-white rounded-[12px] p-[16px] shadow-xl flex flex-col items-center gap-[4px] min-w-[140px]">
+      <span class="text-[#0f172a] text-[22px] font-bold leading-none">500+</span>
+      <span class="text-[#64748b] text-[12px] font-medium">Total Review</span>
+      <div class="flex gap-[2px] mt-[2px]">
+        <span class="text-[#f59e0b] text-[16px]">★</span>
+        <span class="text-[#f59e0b] text-[16px]">★</span>
+        <span class="text-[#f59e0b] text-[16px]">★</span>
+        <span class="text-[#f59e0b] text-[16px]">★</span>
+        <span class="text-[#f59e0b] text-[16px]">★</span>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 </body>
 </html>
