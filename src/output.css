@@ -239,6 +239,12 @@
   .mb-\[8px\] {
     margin-bottom: 8px;
   }
+  .mb-\[24px\] {
+    margin-bottom: 24px;
+  }
+  .mb-\[32px\] {
+    margin-bottom: 32px;
+  }
   .mb-\[40px\] {
     margin-bottom: 40px;
   }
@@ -266,6 +272,9 @@
   .aspect-\[4\/5\] {
     aspect-ratio: 4/5;
   }
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
   .h-\[3px\] {
     height: 3px;
   }
@@ -289,6 +298,9 @@
   }
   .h-\[50px\] {
     height: 50px;
+  }
+  .h-\[52px\] {
+    height: 52px;
   }
   .h-\[64px\] {
     height: 64px;
@@ -344,6 +356,9 @@
   .max-w-\[540px\] {
     max-width: 540px;
   }
+  .max-w-\[600px\] {
+    max-width: 600px;
+  }
   .max-w-\[1200px\] {
     max-width: 1200px;
   }
@@ -391,6 +406,9 @@
   }
   .items-end {
     align-items: flex-end;
+  }
+  .items-start {
+    align-items: flex-start;
   }
   .justify-between {
     justify-content: space-between;
@@ -493,6 +511,9 @@
   .bg-\[\#03132c\] {
     background-color: #03132c;
   }
+  .bg-\[\#cbd5e1\] {
+    background-color: #cbd5e1;
+  }
   .bg-\[\#e2e8f0\] {
     background-color: #e2e8f0;
   }
@@ -572,6 +593,9 @@
   }
   .px-\[30px\] {
     padding-inline: 30px;
+  }
+  .px-\[36px\] {
+    padding-inline: 36px;
   }
   .py-\[6px\] {
     padding-block: 6px;
@@ -808,6 +832,14 @@
       }
     }
   }
+  .active\:scale-95 {
+    &:active {
+      --tw-scale-x: 95%;
+      --tw-scale-y: 95%;
+      --tw-scale-z: 95%;
+      scale: var(--tw-scale-x) var(--tw-scale-y);
+    }
+  }
   .sm\:flex {
     @media (width >= 40rem) {
       display: flex;
@@ -821,6 +853,11 @@
   .sm\:inline {
     @media (width >= 40rem) {
       display: inline;
+    }
+  }
+  .sm\:aspect-\[4\/3\] {
+    @media (width >= 40rem) {
+      aspect-ratio: 4/3;
     }
   }
   .sm\:grid-cols-2 {
@@ -883,9 +920,19 @@
       display: flex;
     }
   }
+  .lg\:aspect-square {
+    @media (width >= 64rem) {
+      aspect-ratio: 1 / 1;
+    }
+  }
   .lg\:w-\[42\%\] {
     @media (width >= 64rem) {
       width: 42%;
+    }
+  }
+  .lg\:w-\[50\%\] {
+    @media (width >= 64rem) {
+      width: 50%;
     }
   }
   .lg\:w-\[55\%\] {
@@ -911,6 +958,11 @@
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+  }
+  .lg\:gap-\[80px\] {
+    @media (width >= 64rem) {
+      gap: 80px;
     }
   }
   .lg\:py-\[80px\] {
